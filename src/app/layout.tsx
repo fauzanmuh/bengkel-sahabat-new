@@ -9,7 +9,8 @@ const rubik = Rubik({
 
 export const metadata: Metadata = {
   title: "Bengkel Sahabat",
-  description: "Bengkel Sahabat",
+  description:
+    "Kepuasan dan kepercayaan pelanggan adalah prioritas utama kami, Serta meningkatan muttu dan kualitas adalah tanggung jawab kami",
 };
 
 export default function RootLayout({
