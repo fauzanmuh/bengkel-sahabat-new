@@ -20,7 +20,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${rubik.variable}`}>{children}</body>
+      <body className={`${rubik.variable}`} suppressHydrationWarning>
+        {children}
+      </body>
     </html>
   );
 }
