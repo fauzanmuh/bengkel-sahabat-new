@@ -11,6 +11,21 @@ export const metadata: Metadata = {
   title: "Bengkel Sahabat",
   description:
     "Kepuasan dan kepercayaan pelanggan adalah prioritas utama kami, Serta meningkatan muttu dan kualitas adalah tanggung jawab kami",
+  openGraph: {
+    title: "Bengkel Sahabat",
+    description:
+      "Kepuasan dan kepercayaan pelanggan adalah prioritas utama kami, Serta meningkatan muttu dan kualitas adalah tanggung jawab kami",
+    url: "https://bengkel-sahabat.vercel.app/",
+    type: "website",
+    images: [
+      {
+        url: "https://bengkel-sahabat.vercel.app/assets/img/logo.png",
+        width: 1200,
+        height: 630,
+        alt: "Bengkel Sahabat",
+      },
+    ],
+  },
 };
 
 export default function RootLayout({
