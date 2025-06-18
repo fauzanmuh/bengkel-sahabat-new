@@ -1,5 +1,6 @@
 "use client";
 
+import AboutSection from "@/components/AboutSection";
 import Navbar from "@/components/Navbar";
 import { ScrollVelocity } from "@/components/ScrollVelocity";
 import "@/css/style.css";
@@ -24,7 +25,13 @@ export default function Home() {
         </section>
         <section
           id="about"
-          className="w-full h-screen flex items-center justify-center"
+          className="bg-[#FFF2E0] w-full min-h-screen py-18 px-2 flex items-center justify-center"
+        >
+          <AboutSection />
+        </section>
+        <section
+          id="servies"
+          className="bg-[#FFF2E0] w-full min-h-screen py-18 flex items-center justify-center"
         ></section>
       </div>
     </>
