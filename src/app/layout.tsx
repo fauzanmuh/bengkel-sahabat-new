@@ -8,21 +8,27 @@ const rubik = Rubik({
 });
 
 export const metadata: Metadata = {
-  title: "Bengkel Sahabat",
+  title: "Bengkel Sahabat Fonda Fonda",
   description:
     "Kepuasan dan kepercayaan pelanggan adalah prioritas utama kami, Serta meningkatan muttu dan kualitas adalah tanggung jawab kami",
+  manifest: "/manifest.json",
+  themeColor: "#000000",
+  icons: {
+    icon: "/assets/img/logo.png",
+    apple: "/assets/img/logo.png",
+  },
   openGraph: {
-    title: "Bengkel Sahabat",
+    title: "Bengkel Sahabat Fonda",
     description:
       "Kepuasan dan kepercayaan pelanggan adalah prioritas utama kami, Serta meningkatan muttu dan kualitas adalah tanggung jawab kami",
-    url: "https://bengkel-sahabat.vercel.app/",
+    url: "https://bengkel-sahabat.vercel.app",
     type: "website",
     images: [
       {
         url: "https://bengkel-sahabat.vercel.app/assets/img/logo.png",
         width: 1200,
         height: 630,
-        alt: "Bengkel Sahabat",
+        alt: "Bengkel Sahabat Fonda",
       },
     ],
   },
