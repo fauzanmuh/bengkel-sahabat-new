@@ -4,6 +4,8 @@ import withPWA from "next-pwa";
 const config: NextConfig = {
   reactStrictMode: true,
   productionBrowserSourceMaps: true,
+  poweredByHeader: false,
+  turbopack: {},
 };
 
 export default withPWA({
